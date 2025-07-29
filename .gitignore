@@ -50,6 +50,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+test-results.xml
 
 # Translations
 *.mo
@@ -161,6 +162,7 @@ cython_debug/
 
 # VS Code
 .vscode/
+.vscode-test/
 
 # Docker
 .dockerignore
@@ -199,3 +201,11 @@ node_modules/
 # Temporary folders
 tmp/
 temp/
+
+# Security reports
+*-report.json
+bandit-report.json
+safety-report.json
+
+# CI/CD artifacts
+.cache/

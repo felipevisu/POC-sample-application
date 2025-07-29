@@ -1,0 +1,10 @@
+# Additional development dependencies for testing and code quality
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+pytest-cov==4.1.0
+bandit==1.7.5
+safety==3.0.1
+flake8==6.1.0
+black==24.3.0
+isort==5.13.2
