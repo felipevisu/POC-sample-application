@@ -76,13 +76,13 @@ The API includes sample data for 8 different products across various categories:
 1. **Build the Docker image:**
 
    ```bash
-   docker build -t market-products-api .
+   docker build -t fastapi-app .
    ```
 
 2. **Run the container:**
 
    ```bash
-   docker run -d -p 8000:8000 --name market-api market-products-api
+   docker run -d -p 8000:8000 --name fastapi-app fastapi-app
    ```
 
 3. **Access the API:**
